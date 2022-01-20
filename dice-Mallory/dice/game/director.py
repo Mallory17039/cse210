@@ -45,6 +45,9 @@ class Director:
         Args:
             self (Director): An instance of Director.
         """
+        # We should check this before move on to do_update
+        if not self.is_playing:
+            return 
         roll_dice = input("Roll dice? [y/n] ")
         self.is_playing = (roll_dice == "y")
        
@@ -54,9 +57,8 @@ class Director:
         Args:
             self (Director): An instance of Director.
         """
-        if not self.is_playing:
-            return 
-
+        #self.score needs to be reset every round
+        self.score =0
         for i in range(len(self.dice)):
             die = self.dice[i]
             die.roll()
@@ -79,6 +81,8 @@ class Director:
 
         print(f"You rolled: {values}")
         print(f"Your score is: {self.total_score}\n")
-        self.is_playing == (self.score > 0)
+        ### operator should be = so that game can be updated (True / False), not a comparison operator...
+        self.is_playing = (self.score > 0)
+        
 
 ## If the player does not roll any ones or fives the game is over.

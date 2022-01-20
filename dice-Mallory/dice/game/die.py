@@ -1,5 +1,9 @@
 import random
 
+### Class passes through self inside of instances and functions. 
+### Frist argument inside of class function is always self
+### When you calling the function, you don't need to worry about self. Alreadu added into function
+
 class Die:
     def __init__(self):
         self.value = 0
