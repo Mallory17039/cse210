@@ -1,7 +1,5 @@
 import random
 
-
-
 #TODO: Create a Card Class
 class Card:
     def __init__(self):

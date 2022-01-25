@@ -1,6 +1,7 @@
 from hilo.card import card
 
 #TODO: fix some functions and maybe use tuple for card 1 and card 2?
+# There is Zach's code in the bottom
 class score:
     """ This will calculate score.
     Attributes:
