@@ -30,3 +30,6 @@ root                    (project root folder)
 ## Authors
 ---
 * Mallory Lee
+* Cristian Fernandez
+* Zachary Thompson
+* Nathanael Budge 
