@@ -29,4 +29,7 @@ root                    (project root folder)
 
 ## Authors
 ---
-* Mallory Lee
+* Mallory Lee : Created README.md, seperate files into main/card/score, debugged the code
+* Cristian Fernandez : Joined discussion for the making frame for the project
+* Zachary Thompson : Create Hilo.py which is original code so that we can get the hang of how we use classes
+* Nathanael Budge : Varified code in GitHub
