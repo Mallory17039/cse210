@@ -39,7 +39,7 @@ class Score:
             self(point): an instance of point 
         """
         guess = input("Higher or Lower? [h/l] ")
-        if (self.get_guess == "h"):
+        if (guess == "h"):
             if(self.card1.card_value() > self.card2.card_value()):
                 self.point = -75
             elif(self.card1.card_value() < self.card2.card_value()):
